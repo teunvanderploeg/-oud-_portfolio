@@ -35,6 +35,14 @@ h1 {
   width: auto;
   height: 1500px;
 }
+#dayinmylive {
+  width: auto;
+  height: 1500px;
+}
+#dayinmylive p {
+  margin-top: 100px;
+  width: 500px;
+}
 
 #teunpage {
   width: auto;
@@ -79,82 +87,84 @@ h1 {
   text-align: center;
   font-size: 40px;
 }
-#project1:hover {
-  background-color: lightgray;
-  color: black;
-}
+
 #project2 h2 {
   padding-top: 0;
   text-align: center;
   font-size: 40px;
 }
-#project2:hover {
-  background-color: lightgray;
-  color: black;
-}
+
 #project3 h2 {
   padding-top: 0;
   text-align: center;
   font-size: 40px;
 }
-#project3:hover {
-  background-color: lightgray;
-  color: black;
-}
+
 #project4 h2 {
   padding-top: 0;
   text-align: center;
   font-size: 40px;
 }
-#project4:hover {
-  background-color: lightgray;
-  color: black;
+.projecttext {
+  text-align: center;
+  margin-left: 17%;
 }
+
 #project1 {
   margin-top: 5em;
-  background-color: gray;
-  height: 400px;
+  height: 500px;
   width: 300px;
   margin-left: 7.5%;
   overflow: hidden;
   float: left;
 }
-
+#project1:hover {
+  background-color: rgb(36, 36, 36);
+}
+.rekenmacineplaatje {
+  width: 100%;
+}
 #project2 {
   margin-top: 5em;
-  background-color: gray;
-  height: 400px;
+  height: 500px;
   width: 300px;
   margin-left: 7.5%;
   overflow: hidden;
   float: left;
 }
 #project2:hover {
-  background-color: lightgray;
+  background-color: rgb(36, 36, 36);
+}
+.rekengameplaatje {
+  width: 100%;
 }
 #project3 {
   margin-top: 5em;
-  background-color: gray;
-  height: 400px;
+  height: 500px;
   width: 300px;
   margin-left: 7.5%;
   overflow: hidden;
   float: left;
 }
 #project3:hover {
-  background-color: lightgray;
+  background-color: rgb(36, 36, 36);
+}
+.studiepuntencalculator {
+  width: 100%;
 }
 #project4 {
   margin-top: 5em;
-  background-color: gray;
-  height: 400px;
+  height: 500px;
   width: 300px;
   margin-left: 7.5%;
   overflow: hidden;
   float: left;
 }
 #project4:hover {
-  background-color: lightgray;
+  background-color: rgb(36, 36, 36);
+}
+.tipovergeld {
+  width: 100%;
 }
 
 #contactpage {
@@ -194,10 +204,15 @@ h1 {
   padding-top: 3em;
   text-align: center;
   font-size: 40px;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
 }
 .body p {
   width: 300px;
   padding-top: 4em;
   font-size: 20px;
   padding-left: 25%;
+  color: white;
+  text-decoration: none;
 }
